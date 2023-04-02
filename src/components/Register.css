@@ -1,0 +1,23 @@
+*
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+h1 {
+    position: absolute;
+    width: 75%;
+    height: 11%;
+    left: 10%;
+    top: 20%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.2vw;
+    line-height: 5.5vw;
+    text-align: center;
+    color: #e4e4e4;
+  }
