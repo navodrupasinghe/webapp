@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;900&display=swap');
+
+*
+ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+h1 {
+  position: absolute;
+  width: 75%;
+  height: 11%;
+  left: 10%;
+  top: 20%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.2vw;
+  line-height: 5.5vw;
+  text-align: center;
+  color: #e4e4e4;
+}
+
+
+h2 {
+  position: absolute;
+  width: 80%;
+  height: 7%;
+  left: 8%;
+  top: 18%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4vw;
+  line-height: 0.7;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.left-col-md-6 {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.right-col-md-6 {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  right: 0%;
+  top: 0%;
+  background: #141430;
+  color: #ffffff;
+  padding: 2vw;
+}
+
+#username {
+  position: absolute;
+  width: 58%;
+  height: 6%;
+  left: 18%;
+  top: 50%;
+  background: #d9d9d9;
+  border-radius: 6vw;
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+
+#username::placeholder {
+  color: #000000;
+}
+
+#password {
+  position: absolute;
+  width: 58%;
+  height: 6%;
+  left: 18%;
+  top: 60%;
+  background: #d9d9d9;
+  border-radius: 6vw;
+  padding-left: 2vw;
+  font-size: 1.5vw;
+}
+
+#password::placeholder {
+  color: #000000;
+}
+
+
+#login-btn {
+  position: absolute;
+  width: 22%;
+  height: 8%;
+  left: 37%;
+  top: 70%;
+  background: #212a41;
+  border-radius: 7vw;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.customer {
+  position: absolute;
+  width: 50%;
+  height: 7%;
+  left: 25%;
+  top: 50%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 1vw;
+  text-align: center;
+  color: #000000;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+
+.consultant {
+  position: absolute;
+  width: 50%;
+  height: 7%;
+  left: 25%;
+  top: 65%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1vw;
+  line-height: 2vw;
+  text-align: center;
+  color: #000000;
+  border-radius: 3vw;
+  cursor: pointer;
+}
+
+p {
+  position: absolute;
+  width: 80%;
+  height: 19%;
+  left: 8%;
+  top: 35%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  line-height: 1;
+  text-align: center;
+  color: #ffffff;
+}
+
+.guidme-image {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 40%;
+  z-index: 1; /* set a higher z-index than the .consultancy-image */
+}
+
+.consultancy-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  z-index: 0; /* set a lower z-index than the .guidme-image */
+  filter: brightness(0.4); /* apply a 50% brightness */
+}
+
+.box {
+  background-color: rgba(5, 5, 5, 0.181);
+  backdrop-filter: blur(2px);
+  border-radius: 5%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 10%;
+  width: 90%;
+  height: 80%;
+  margin-top :7%;
+  margin-left: 5%;
+}
